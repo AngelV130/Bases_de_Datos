@@ -14,3 +14,5 @@ class Pandas:
         return df.to_dict(orient='records')
     def juntar(self, dataDF = []) -> pd.DataFrame:
         return pd.concat(dataDF, ignore_index=True)
+    def join(self, df1, df2, right_on=None, left_on=None):
+        return pd.merge(df1, df2, left_on=left_on,right_on=right_on)

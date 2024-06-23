@@ -1,6 +1,5 @@
 from confs.ConcectionBD import ConnectionBD
 from confs.Pandas import Pandas
-from db.Tables import Order_Details, Categories, CustomerCustomerDemo, CustomerDemographics, Customers, Employees, EmployeeTerritories, Orders, Products, Region, Shippers, Suppliers, Territories
 
 def main():
     # connection = ConnectionBD(database='northwind', user='root',  password='example', host='localhost')
@@ -56,4 +55,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

@@ -24,7 +24,7 @@ class ConnectionBD:
         self.connection.close()
         self.cursor.close()
     def execute_query(self, query):
-        res = pd.read_sql_query(query, self.connection)
+        res = pd.read_sql(query, self.connection)
         return res
     def execute_insert(self, query):
         self.cursor.execute(query)
