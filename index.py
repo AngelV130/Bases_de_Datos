@@ -10,10 +10,12 @@ warnings.filterwarnings('ignore')
 
 
 import consultas.consulta_1.Ganancias_Autor as Ganancias_Autor
+import consultas.consulta_2.Ganasias_Author_Region as Ganasias_Author_Region
 
 
 def main():
-    Ganancias_Autor.main()
+    # Ganancias_Autor.main()
+    Ganasias_Author_Region.main()
     return
 
 if __name__ == "__main__":
