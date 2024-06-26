@@ -144,3 +144,4 @@ MANIFEST
 # Pytest
 .pytest_cache/
 .cache
+*.deb
